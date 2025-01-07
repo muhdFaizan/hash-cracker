@@ -20,11 +20,11 @@ def identify_hash(hash_input):
 
     # Return the results
     if possible_types:
-        return f"Possible hash types: {', '.join(possible_types)}"
+        return f"ithaa kuttaaa ninte hash: {', '.join(possible_types)}"
     else:
-        return "No matching hash type found."
+        return "matching aaya hash type onnum illa kuttaa veera nook."
 
 # Ask the user for input
-hash_input = input("Enter a hash to identify: ")
+hash_input = input("Eeth hash aanu find cheyyandee: ")
 result = identify_hash(hash_input)
 print(result)
